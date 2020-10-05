@@ -12,17 +12,22 @@ NAV
 */
 
 body{
-    background-color: $light-color;
+    background-color: $dark-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 nav{
     background-color: $dark-color;
     height: 13% !important;
     width: 100%;
-    margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 120%;
     padding: 0;
     letter-spacing: 8px;
+    position: absolute;
+    z-index: 1;
 
     .nav-item{
     margin-right: 25px;
@@ -72,27 +77,35 @@ nav{
     background-color: $dark-color;
     color: $light-color;
     text-align: center;
+    background-color: $dark-color;
 
     .slider{
         max-height: 400px;
-
+        background-color: $dark-color;
+        border: solid 2px black;
         .img-info{
             max-height: 400px;
-            width: 70%;
+            width: 100%;
             margin: 0 auto;
+            border: solid 2px black;
         }
     }
 }
+
 footer{
-    color: $light-color;
-    background-color: $dark-color;
-    margin-bottom: 5.8%;
+    color: $dark-color;
+    background-color: $light-color;
     padding: 5% 20% 5%;
+    margin-bottom: 10%;
+    
 }
+
+
 @media (max-width: 450px){
     nav{
         margin: 0;
         width: 100%;
+        z-index: 1;
     }
 }
 

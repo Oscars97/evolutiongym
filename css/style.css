@@ -5,17 +5,21 @@
 NAV
 */
 body {
-  background-color: #fff; }
+  background-color: #182c2b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 nav {
   background-color: #182c2b;
   height: 13% !important;
   width: 100%;
-  margin: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 120%;
   padding: 0;
-  letter-spacing: 8px; }
+  letter-spacing: 8px;
+  position: absolute;
+  z-index: 1; }
   nav .nav-item {
     margin-right: 25px;
     position: relative; }
@@ -54,24 +58,29 @@ nav {
   margin: 0 auto;
   background-color: #182c2b;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  background-color: #182c2b; }
   .aboutUs .slider {
-    max-height: 400px; }
+    max-height: 400px;
+    background-color: #182c2b;
+    border: solid 2px black; }
     .aboutUs .slider .img-info {
       max-height: 400px;
-      width: 70%;
-      margin: 0 auto; }
+      width: 100%;
+      margin: 0 auto;
+      border: solid 2px black; }
 
 footer {
-  color: #fff;
-  background-color: #182c2b;
-  margin-bottom: 5.8%;
-  padding: 5% 20% 5%; }
+  color: #182c2b;
+  background-color: #fff;
+  padding: 5% 20% 5%;
+  margin-bottom: 10%; }
 
 @media (max-width: 450px) {
   nav {
     margin: 0;
-    width: 100%; } }
+    width: 100%;
+    z-index: 1; } }
 
 @keyframes mainTransition {
   0% {

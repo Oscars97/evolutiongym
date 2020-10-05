@@ -6,5 +6,9 @@ $(document).ready(function(){
         pager: 'false',
         auto: 'false'
       });
+
+      var footer = document.querySelector('footer').mouseOn(function(){
+        footer.addClass("animated");
+      });
 });
 
