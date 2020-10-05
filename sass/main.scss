@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+//VARIABLES
+$dark-color: #182c2b;
+$light-color: #fff;
+$title-font: 'Roboto Slab', serif;
+
+/*
+NAV
+*/
+
+body{
+    background-color: $light-color;
+}
+nav{
+    background-color: $dark-color;
+    height: 13% !important;
+    width: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    padding: 0;
+    letter-spacing: 8px;
+
+    .nav-item{
+    margin-right: 25px;
+    position: relative;
+
+        &:last-child{
+        position: absolute;
+        right: 0.1%;
+        margin-right: 0;
+        }
+            
+    }
+    #logo{
+        height: 76px;
+        width: 100px;
+    }
+}
+
+
+.main{  animation: mainTransition 2s;
+        height: 100vh;
+        // background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 0.455), rgba(254, 254, 254, 0.455)), url(../img/logo.jpeg);
+        /*This makes a gradient effect and comes from the
+                right to the bottom with opacity and uses the following color -->  */
+        /* And then we call se url function to set the
+                background image */
+        background-image: url(../img/logo.jpeg);
+        background-size: initial;
+        background-position: center;
+        background-position-y: 33%;
+        clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
+        position: relative;
+
+        .title-main{
+            color: $light-color;
+            padding-top: 2%;
+            text-align: center;
+            font-family: $title-font;
+        }
+}
+#sobreNosotros{
+    background-color: $dark-color;
+}
+.aboutUs{
+    width: 70%;
+    margin: 0 auto;
+    background-color: $dark-color;
+    color: $light-color;
+    text-align: center;
+
+    .slider{
+        max-height: 400px;
+
+        .img-info{
+            max-height: 400px;
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+}
+footer{
+    color: $light-color;
+    background-color: $dark-color;
+    margin-bottom: 5.8%;
+    padding: 5% 20% 5%;
+}
+@media (max-width: 450px){
+    nav{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@keyframes mainTransition{
+    0%{
+        opacity: 0;
+        transform: rotateY(50deg);
+    }
+    50%{
+        transform: rotateY(100deg)
+    }
+    100%{
+        opacity: 1;
+    }
+}

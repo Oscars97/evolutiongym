@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+/*
+NAV
+*/
+body {
+  background-color: #fff; }
+
+nav {
+  background-color: #182c2b;
+  height: 13% !important;
+  width: 100%;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+  padding: 0;
+  letter-spacing: 8px; }
+  nav .nav-item {
+    margin-right: 25px;
+    position: relative; }
+    nav .nav-item:last-child {
+      position: absolute;
+      right: 0.1%;
+      margin-right: 0; }
+  nav #logo {
+    height: 76px;
+    width: 100px; }
+
+.main {
+  animation: mainTransition 2s;
+  height: 100vh;
+  /*This makes a gradient effect and comes from the
+                right to the bottom with opacity and uses the following color -->  */
+  /* And then we call se url function to set the
+                background image */
+  background-image: url(../img/logo.jpeg);
+  background-size: initial;
+  background-position: center;
+  background-position-y: 33%;
+  clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
+  position: relative; }
+  .main .title-main {
+    color: #fff;
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Roboto Slab", serif; }
+
+#sobreNosotros {
+  background-color: #182c2b; }
+
+.aboutUs {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #182c2b;
+  color: #fff;
+  text-align: center; }
+  .aboutUs .slider {
+    max-height: 400px; }
+    .aboutUs .slider .img-info {
+      max-height: 400px;
+      width: 70%;
+      margin: 0 auto; }
+
+footer {
+  color: #fff;
+  background-color: #182c2b;
+  margin-bottom: 5.8%;
+  padding: 5% 20% 5%; }
+
+@media (max-width: 450px) {
+  nav {
+    margin: 0;
+    width: 100%; } }
+
+@keyframes mainTransition {
+  0% {
+    opacity: 0;
+    transform: rotateY(50deg); }
+  50% {
+    transform: rotateY(100deg); }
+  100% {
+    opacity: 1; } }
