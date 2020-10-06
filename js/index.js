@@ -1,14 +1,8 @@
-$(document).ready(function(){
-      console.log('hello world');
-      
-      $('.slider').bxSlider({
-        mode: 'fade',
-        pager: 'false',
-        auto: 'false'
-      });
+'use strict'
+var btn_show_map = document.querySelector('.show-map');
+var map = document.querySelector('.map');
 
-      var footer = document.querySelector('footer').mouseOn(function(){
-        footer.addClass("animated");
-      });
-});
+btn_show_map.addEventListener('click', ()=>{map.classList.toggle('show-element');})
+
+
 

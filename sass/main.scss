@@ -95,8 +95,30 @@ nav{
 footer{
     color: $dark-color;
     background-color: $light-color;
-    padding: 5% 20% 5%;
-    margin-bottom: 10%;
+    padding: 5% 10% 5%;
+    margin-bottom: 5%;
+    
+    .title-col{
+        text-align: center;
+    }
+
+    .first-col{
+
+        .map{
+            width: 100%;
+            display: none;
+        }
+        .show-element {
+            animation: mainTransition 2s ease-out;
+            display: block;
+        }
+        .info-ubicacion{
+            text-align: justify;
+        }
+    }
+    .second-col{
+
+    }
     
 }
 

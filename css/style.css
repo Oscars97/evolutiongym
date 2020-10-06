@@ -73,8 +73,18 @@ nav {
 footer {
   color: #182c2b;
   background-color: #fff;
-  padding: 5% 20% 5%;
-  margin-bottom: 10%; }
+  padding: 5% 10% 5%;
+  margin-bottom: 5%; }
+  footer .title-col {
+    text-align: center; }
+  footer .first-col .map {
+    width: 100%;
+    display: none; }
+  footer .first-col .show-element {
+    animation: mainTransition 2s ease-out;
+    display: block; }
+  footer .first-col .info-ubicacion {
+    text-align: justify; }
 
 @media (max-width: 450px) {
   nav {
