@@ -1,0 +1,66 @@
+footer{
+    color: $dark-color;
+    background-color: $light-color;
+    padding: 5% 10% 5%;
+    margin-bottom: 5%;
+    
+    .location-contact{
+
+        .title-col{
+            text-align: center;
+        }
+        .btn-show-map {
+            box-shadow: 3px 4px 0px 0px #36218a;
+            background:linear-gradient(to bottom, #2026d6 5%, #5c38f0 100%);
+            background-color:#2026d6;
+            border-radius:18px;
+            border:1px solid #191fcf;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:17px;
+            padding:7px 25px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #0b0580;
+        }
+        .btn-show-map:hover {
+            background:linear-gradient(to bottom, #5c38f0 5%, #2026d6 100%);
+            background-color:#5c38f0;
+        }
+        .btn-show-map:active {
+            position:relative;
+            top:1px;
+        }
+        
+
+        .columna{
+            border: solid 2px black;
+            padding: 5%;
+    
+            &__:first-child(){
+                margin-right: 5%;
+            }
+        }
+                .first-col{
+    
+                    .map{
+                    width: 100%;
+                    display: none;
+                    margin-top: 5%;
+                    }
+                    .show-element {
+                    animation: mainTransition 2s ease-out;
+                    display: block;
+                    }
+                    .info-ubicacion{
+                    text-align: justify;
+                    }
+                }
+            }
+
+    }
+    
+    
+    
+    

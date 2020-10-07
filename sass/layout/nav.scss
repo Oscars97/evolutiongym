@@ -1,0 +1,27 @@
+nav{
+    background-color: $dark-color;
+    height: 13% !important;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    padding: 0;
+    letter-spacing: 8px;
+    position: absolute;
+    z-index: 1;
+
+    .nav-item{
+    margin-right: 25px;
+    position: relative;
+
+        &:last-child{
+        position: absolute;
+        right: 0.1%;
+        margin-right: 0;
+        }
+            
+    }
+    #logo{
+        height: 76px;
+        width: 100px;
+    }
+}

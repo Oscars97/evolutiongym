@@ -1,0 +1,44 @@
+.main{  animation: mainTransition 2s;
+    height: 100vh;
+    // background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 0.455), rgba(254, 254, 254, 0.455)), url(../img/logo.jpeg);
+    /*This makes a gradient effect and comes from the
+            right to the bottom with opacity and uses the following color -->  */
+    /* And then we call se url function to set the
+            background image */
+    background-image: url(../img/logo.jpeg);
+    background-size: initial;
+    background-position: center;
+    background-position-y: 33%;
+    clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
+    position: relative;
+
+    .title-main{
+        color: $light-color;
+        padding-top: 2%;
+        text-align: center;
+        font-family: $title-font;
+    }
+}
+#sobreNosotros{
+background-color: $dark-color;
+}
+.aboutUs{
+width: 70%;
+margin: 0 auto;
+background-color: $dark-color;
+color: $light-color;
+text-align: center;
+background-color: $dark-color;
+
+.slider{
+    max-height: 400px;
+    background-color: $dark-color;
+    border: solid 2px black;
+    .img-info{
+        max-height: 400px;
+        width: 100%;
+        margin: 0 auto;
+        border: solid 2px black;
+    }
+}
+}

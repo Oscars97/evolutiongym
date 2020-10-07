@@ -1,127 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
-
-//VARIABLES
-$dark-color: #182c2b;
-$light-color: #fff;
-$title-font: 'Roboto Slab', serif;
-
-/*
-NAV
-*/
-
-body{
-    background-color: $dark-color;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-nav{
-    background-color: $dark-color;
-    height: 13% !important;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    font-size: 120%;
-    padding: 0;
-    letter-spacing: 8px;
-    position: absolute;
-    z-index: 1;
-
-    .nav-item{
-    margin-right: 25px;
-    position: relative;
-
-        &:last-child{
-        position: absolute;
-        right: 0.1%;
-        margin-right: 0;
-        }
-            
-    }
-    #logo{
-        height: 76px;
-        width: 100px;
-    }
-}
-
-
-.main{  animation: mainTransition 2s;
-        height: 100vh;
-        // background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 0.455), rgba(254, 254, 254, 0.455)), url(../img/logo.jpeg);
-        /*This makes a gradient effect and comes from the
-                right to the bottom with opacity and uses the following color -->  */
-        /* And then we call se url function to set the
-                background image */
-        background-image: url(../img/logo.jpeg);
-        background-size: initial;
-        background-position: center;
-        background-position-y: 33%;
-        clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
-        position: relative;
-
-        .title-main{
-            color: $light-color;
-            padding-top: 2%;
-            text-align: center;
-            font-family: $title-font;
-        }
-}
-#sobreNosotros{
-    background-color: $dark-color;
-}
-.aboutUs{
-    width: 70%;
-    margin: 0 auto;
-    background-color: $dark-color;
-    color: $light-color;
-    text-align: center;
-    background-color: $dark-color;
-
-    .slider{
-        max-height: 400px;
-        background-color: $dark-color;
-        border: solid 2px black;
-        .img-info{
-            max-height: 400px;
-            width: 100%;
-            margin: 0 auto;
-            border: solid 2px black;
-        }
-    }
-}
-
-footer{
-    color: $dark-color;
-    background-color: $light-color;
-    padding: 5% 10% 5%;
-    margin-bottom: 5%;
-    
-    .title-col{
-        text-align: center;
-    }
-
-    .first-col{
-
-        .map{
-            width: 100%;
-            display: none;
-        }
-        .show-element {
-            animation: mainTransition 2s ease-out;
-            display: block;
-        }
-        .info-ubicacion{
-            text-align: justify;
-        }
-    }
-    .second-col{
-
-    }
-    
-}
-
+@import './abstracts/variables';
+@import './components/contact.scss';
+@import './base/general.scss';
+@import './layout/nav.scss';
+@import './components/main.scss';
+@import './animations/keyframes.scss';
 
 @media (max-width: 450px){
     nav{
@@ -131,15 +16,3 @@ footer{
     }
 }
 
-@keyframes mainTransition{
-    0%{
-        opacity: 0;
-        transform: rotateY(50deg);
-    }
-    50%{
-        transform: rotateY(100deg)
-    }
-    100%{
-        opacity: 1;
-    }
-}
