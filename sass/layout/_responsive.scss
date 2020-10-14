@@ -1,0 +1,33 @@
+@media (max-width: 420px){
+    nav{ 
+        display: none;
+        margin: 0;
+        width: 100%;
+        z-index: 1;
+
+        .nav-link{
+            position: relative;
+
+                &:last-child{
+                position: relative;
+                }
+                    
+            }
+    }
+    .main{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 100vh;
+    // background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 0.455), rgba(254, 254, 254, 0.455)), url(../img/logo.jpeg);
+    /*This makes a gradient effect and comes from the
+            right to the bottom with opacity and uses the following color -->  */
+    /* And then we call se url function to set the
+            background image */
+    background-image: url(../img/logo.jpeg);
+    background-size: auto;
+    background-position-y: 30%;
+    background-position-x: 3%;
+    position: relative;
+    }
+
+
+}

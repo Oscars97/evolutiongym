@@ -10,13 +10,15 @@ footer{
             text-align: center;
         }
         .btn-show-map {
+            float: right;
+            margin-bottom: 5%;
             box-shadow: 3px 4px 0px 0px #36218a;
             background:linear-gradient(to bottom, #2026d6 5%, #5c38f0 100%);
             background-color:#2026d6;
             border-radius:18px;
             border:1px solid #191fcf;
             display:inline-block;
-            cursor:pointer;
+            cursor: pointer;
             color:#ffffff;
             font-family:Arial;
             font-size:17px;
