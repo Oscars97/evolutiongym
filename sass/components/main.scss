@@ -13,26 +13,33 @@
 }
 
 .aboutUs{
-color: $light-color;
-// background-color: rgb(4, 4, 4);
-position: relative;
-z-index: -1;
-    .imgs{
-        box-sizing: border-box;
-        width: 100%;
-        position: relative;
-        z-index: 1;
+    color: $light-color;
+    background-color: red;
+    position: relative;
+
+    .element-about-us{
+        display: inline-block;
+    }
+        .imgs{
+            padding: 2% 10% 2%;
+            box-sizing: border-box;
+            width: 50%;
+            left: 5%;
+            position: relative;
+            
 
         img{
-            height: 600px;
-            width: 90%;
+            height: 400px;
+            width: 100%;
             margin: 0 auto;
         }
-        .info{
-            position: absolute;
-            display: inline;
-            z-index: 10;
-            // background-color: rgba($color: #000000, $alpha: 1.0);
-        }
+    
+    }
+    .info{
+        padding: 5%;
+        width: 40%;
+        left: 1%;
+        position: relative;
+        color: $dark-color;
     }
 }

@@ -10,3 +10,17 @@
         opacity: 1;
     }
 }
+@keyframes centeredPosition{
+    0%{
+        color: white;
+        opacity: 0;
+    }
+    50%{
+    
+    }
+    100%{
+        text-align: center;
+        color: white;
+        opacity: 1;
+    }
+}

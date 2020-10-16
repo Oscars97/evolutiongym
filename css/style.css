@@ -55,6 +55,7 @@ body {
   background-position-y: -1%; }
 
 nav {
+  background-color: rgba(0, 0, 0, 0.078);
   height: 13% !important;
   width: 100%;
   font-family: 'Raleway', sans-serif;
@@ -64,6 +65,10 @@ nav {
   nav .nav-link {
     margin-right: 25px;
     position: relative; }
+    nav .nav-link:hover {
+      animation: centeredPosition 2s;
+      background-color: red;
+      color: #fff; }
     nav .nav-link:last-child {
       position: absolute;
       right: 0.1%;
@@ -83,21 +88,26 @@ nav {
 
 .aboutUs {
   color: #fff;
-  position: relative;
-  z-index: -1; }
+  background-color: red;
+  position: relative; }
+  .aboutUs .element-about-us {
+    display: inline-block; }
   .aboutUs .imgs {
+    padding: 2% 10% 2%;
     box-sizing: border-box;
-    width: 100%;
-    position: relative;
-    z-index: 1; }
+    width: 50%;
+    left: 5%;
+    position: relative; }
     .aboutUs .imgs img {
-      height: 600px;
-      width: 90%;
+      height: 400px;
+      width: 100%;
       margin: 0 auto; }
-    .aboutUs .imgs .info {
-      position: absolute;
-      display: inline;
-      z-index: 10; }
+  .aboutUs .info {
+    padding: 5%;
+    width: 40%;
+    left: 1%;
+    position: relative;
+    color: #182c2b; }
 
 @keyframes mainTransition {
   0% {
@@ -106,6 +116,16 @@ nav {
   50% {
     transform: rotateY(100deg); }
   100% {
+    opacity: 1; } }
+
+@keyframes centeredPosition {
+  0% {
+    color: white;
+    opacity: 0; }
+  50% { }
+  100% {
+    text-align: center;
+    color: white;
     opacity: 1; } }
 
 @media (max-width: 420px) {

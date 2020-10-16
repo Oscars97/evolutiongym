@@ -1,5 +1,5 @@
 nav{
-    // background-color: $dark-color;
+    background-color: rgba(0, 0, 0, 0.078);
     height: 13% !important;
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -11,12 +11,18 @@ nav{
     margin-right: 25px;
     position: relative;
 
+    &:hover{
+        animation: centeredPosition 2s;
+        background-color: red;
+        color: $light-color;
+    }
         &:last-child{
         position: absolute;
         right: 0.1%;
         margin-right: 0;
         }
-            
+ 
+        
     }
     #logo{
         height: 76px;
