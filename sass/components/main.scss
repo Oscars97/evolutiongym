@@ -5,35 +5,34 @@
             right to the bottom with opacity and uses the following color -->  */
     /* And then we call se url function to set the
             background image */
-    background-image: url(../img/logo.jpeg);
-    background-size: initial;
-    background-position: center;
-    background-position-y: 33%;
-    clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
+   
+    // clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
     position: relative;
 
     
 }
-#sobreNosotros{
-background-color: $dark-color;
-}
-.aboutUs{
-width: 70%;
-margin: 0 auto;
-background-color: $dark-color;
-color: $light-color;
-text-align: center;
-background-color: $dark-color;
 
-.slider{
-    max-height: 400px;
-    background-color: $dark-color;
-    border: solid 2px black;
-    .img-info{
-        max-height: 400px;
+.aboutUs{
+color: $light-color;
+// background-color: rgb(4, 4, 4);
+position: relative;
+z-index: -1;
+    .imgs{
+        box-sizing: border-box;
         width: 100%;
-        margin: 0 auto;
-        border: solid 2px black;
+        position: relative;
+        z-index: 1;
+
+        img{
+            height: 600px;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .info{
+            position: absolute;
+            display: inline;
+            z-index: 10;
+            // background-color: rgba($color: #000000, $alpha: 1.0);
+        }
     }
-}
 }
