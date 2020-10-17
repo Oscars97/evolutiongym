@@ -1,8 +1,9 @@
 footer{
-    color: $dark-color;
-    background-color: $light-color;
+    color: black;
+    background-color: white; 
     padding: 5% 10% 5%;
     margin-bottom: 5%;
+    height: 100vh;
     
     .location-contact{
 
@@ -37,8 +38,7 @@ footer{
         
 
         .columna{
-            border: solid 2px black;
-            padding: 5%;
+            padding: 10% 5%;
     
             &__:first-child(){
                 margin-right: 5%;

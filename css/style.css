@@ -24,7 +24,6 @@ nav {
     position: relative; }
     nav .nav-link:hover {
       animation: centeredPosition 2s;
-      background-color: red;
       color: #fff; }
     nav .nav-link:last-child {
       position: absolute;
@@ -50,11 +49,12 @@ nav {
   text-align: center;
   height: 100vh; }
   #services .title-services {
-    font-family: 'Frank Ruhl Libre', serif; }
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center; }
   #services .testimonial-image {
-    margin: 20px;
+    margin: 30px;
     width: 50%;
-    border-radius: 50px; }
+    border-radius: 10%; }
   #services #press {
     text-align: center;
     background-color: #ef8172; }
@@ -71,10 +71,11 @@ nav {
   margin: 0 auto; }
 
 footer {
-  color: #182c2b;
-  background-color: #fff;
+  color: black;
+  background-color: white;
   padding: 5% 10% 5%;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  height: 100vh; }
   footer .location-contact .title-col {
     text-align: center; }
   footer .location-contact .btn-show-map {
@@ -100,8 +101,7 @@ footer {
     position: relative;
     top: 1px; }
   footer .location-contact .columna {
-    border: solid 2px black;
-    padding: 5%; }
+    padding: 10% 5%; }
     footer .location-contact .columna__:first-child() {
       margin-right: 5%; }
   footer .location-contact .first-col .map {
