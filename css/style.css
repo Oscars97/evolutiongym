@@ -88,12 +88,15 @@ nav {
 
 .aboutUs {
   color: #fff;
-  background-color: red;
-  position: relative; }
+  background: #fb5c3f;
+  background: radial-gradient(circle, #fb5c3f 38%, #ef0031 80%);
+  position: relative;
+  height: 100vh; }
   .aboutUs .element-about-us {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0 auto; }
   .aboutUs .imgs {
-    padding: 2% 10% 2%;
+    padding: 10% 10% 2%;
     box-sizing: border-box;
     width: 50%;
     left: 5%;
@@ -108,6 +111,9 @@ nav {
     left: 1%;
     position: relative;
     color: #182c2b; }
+  .aboutUs:hover {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); }
 
 @keyframes mainTransition {
   0% {
@@ -121,9 +127,13 @@ nav {
 @keyframes centeredPosition {
   0% {
     color: white;
-    opacity: 0; }
+    opacity: 0;
+    background: #fb5c3f;
+    background: radial-gradient(circle, #fb5c3f 38%, #ef0031 80%); }
   50% { }
   100% {
+    background: #fb5c3f;
+    background: radial-gradient(circle, #fb5c3f 38%, #ef0031 80%);
     text-align: center;
     color: white;
     opacity: 1; } }

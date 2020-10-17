@@ -14,14 +14,18 @@
 
 .aboutUs{
     color: $light-color;
-    background-color: red;
+    background: rgb(251,92,63);
+    background: radial-gradient(circle, rgba(251,92,63,1) 38%, rgba(239,0,49,1) 80%); 
     position: relative;
+    height: 100vh;
 
     .element-about-us{
         display: inline-block;
+        margin: 0 auto;
+        
     }
         .imgs{
-            padding: 2% 10% 2%;
+            padding: 10% 10% 2%;
             box-sizing: border-box;
             width: 50%;
             left: 5%;
@@ -42,4 +46,12 @@
         position: relative;
         color: $dark-color;
     }
+    &:hover{
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+    }
+
+    
 }
