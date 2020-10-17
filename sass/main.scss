@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
 @import './abstracts/variables';
-@import './components/contact.scss';
 @import './base/general.scss';
 @import './layout/nav.scss';
 @import './components/main.scss';
+@import './components/slishow';
+@import './components/contact.scss';
 @import './animations/keyframes.scss';
 @import './layout/responsive';
-@import './components/slishow';
+
+
 
 

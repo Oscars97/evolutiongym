@@ -1,0 +1,42 @@
+.main{  animation: mainTransition 2s;
+    height: 100vh;
+    // background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 0.455), rgba(254, 254, 254, 0.455)), url(../img/logo.jpeg);
+    /*This makes a gradient effect and comes from the
+            right to the bottom with opacity and uses the following color -->  */
+    /* And then we call se url function to set the
+            background image */
+   
+    // clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
+    position: relative;
+
+    
+}
+
+#services{
+    color: #fff;
+    background: rgb(180,58,93);
+    background: linear-gradient(90deg, rgba(180,58,93,1) 9%, rgba(253,29,29,1) 66%, rgba(252,176,69,1) 100%); 
+    text-align: center;
+    height: 100vh;
+    
+    .title-services{
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+  
+    .testimonial-image{
+    margin: 20px;
+    width: 50%;
+    border-radius: 50px;
+    }
+    #press{
+    text-align: center;
+    background-color: #ef8172;
+    }
+    .press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+    }
+    .carousel-item{
+    padding: 2% 15%;
+    }
+}

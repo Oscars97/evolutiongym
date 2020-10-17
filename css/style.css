@@ -1,6 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../img/logo.jpeg);
+  background-size: initial;
+  background-position: center;
+  background-position-y: -1%; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.078);
+  height: 13% !important;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+  padding: 0;
+  letter-spacing: 8px; }
+  nav .nav-link {
+    margin-right: 25px;
+    position: relative; }
+    nav .nav-link:hover {
+      animation: centeredPosition 2s;
+      background-color: red;
+      color: #fff; }
+    nav .nav-link:last-child {
+      position: absolute;
+      right: 0.1%;
+      margin-right: 0; }
+  nav #logo {
+    height: 76px;
+    width: 100px; }
+
+.main {
+  animation: mainTransition 2s;
+  height: 100vh;
+  /*This makes a gradient effect and comes from the
+            right to the bottom with opacity and uses the following color -->  */
+  /* And then we call se url function to set the
+            background image */
+  position: relative; }
+
+#services {
+  color: #fff;
+  background: #b43a5d;
+  background: linear-gradient(90deg, #b43a5d 9%, #fd1d1d 66%, #fcb045 100%);
+  text-align: center;
+  height: 100vh; }
+  #services .title-services {
+    font-family: 'Frank Ruhl Libre', serif; }
+  #services .testimonial-image {
+    margin: 20px;
+    width: 50%;
+    border-radius: 50px; }
+  #services #press {
+    text-align: center;
+    background-color: #ef8172; }
+  #services .press-logo {
+    margin: 20px 20px 50px;
+    width: 15%; }
+  #services .carousel-item {
+    padding: 2% 15%; }
+
+.mySlides {
+  display: none;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto; }
+
 footer {
   color: #182c2b;
   background-color: #fff;
@@ -44,76 +113,6 @@ footer {
     display: block; }
   footer .location-contact .first-col .info-ubicacion {
     text-align: justify; }
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url(../img/logo.jpeg);
-  background-size: initial;
-  background-position: center;
-  background-position-y: -1%; }
-
-nav {
-  background-color: rgba(0, 0, 0, 0.078);
-  height: 13% !important;
-  width: 100%;
-  font-family: 'Raleway', sans-serif;
-  font-size: 120%;
-  padding: 0;
-  letter-spacing: 8px; }
-  nav .nav-link {
-    margin-right: 25px;
-    position: relative; }
-    nav .nav-link:hover {
-      animation: centeredPosition 2s;
-      background-color: red;
-      color: #fff; }
-    nav .nav-link:last-child {
-      position: absolute;
-      right: 0.1%;
-      margin-right: 0; }
-  nav #logo {
-    height: 76px;
-    width: 100px; }
-
-.main {
-  animation: mainTransition 2s;
-  height: 100vh;
-  /*This makes a gradient effect and comes from the
-            right to the bottom with opacity and uses the following color -->  */
-  /* And then we call se url function to set the
-            background image */
-  position: relative; }
-
-.aboutUs {
-  color: #fff;
-  background: #fb5c3f;
-  background: radial-gradient(circle, #fb5c3f 38%, #ef0031 80%);
-  position: relative;
-  height: 100vh; }
-  .aboutUs .element-about-us {
-    display: inline-block;
-    margin: 0 auto; }
-  .aboutUs .imgs {
-    padding: 10% 10% 2%;
-    box-sizing: border-box;
-    width: 50%;
-    left: 5%;
-    position: relative; }
-    .aboutUs .imgs img {
-      height: 400px;
-      width: 100%;
-      margin: 0 auto; }
-  .aboutUs .info {
-    padding: 5%;
-    width: 40%;
-    left: 1%;
-    position: relative;
-    color: #182c2b; }
-  .aboutUs:hover {
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); }
 
 @keyframes mainTransition {
   0% {
@@ -164,9 +163,3 @@ nav {
     width: 100%;
     margin: 0;
     padding: 0; } }
-
-.mySlides {
-  display: none;
-  width: 90%;
-  height: 500px;
-  margin: 0 auto; }
