@@ -11,7 +11,10 @@
                 &:last-child{
                 position: relative;
                 }
-                    
+                
+                &:hover{
+                    background-color: white;
+                }
             }
     }
     .main{
@@ -28,10 +31,24 @@
     background-position-x: 3%;
     position: relative;
     }
-    #sobreNosotros{
-        width: 100%;
-        margin: 0;
-        padding: 0;
+
+    
+    #services{
+        
+
+        .carousel-item{
+            padding-top: 15%;
+            
+            img{
+                height: 40%;
+                width: 70%;
+            }
+
+
+            em{
+                font-size: 1.2rem;
+            }
+        }
     }
 
 }

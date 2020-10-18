@@ -147,6 +147,8 @@ footer {
       position: relative; }
       nav .nav-link:last-child {
         position: relative; }
+      nav .nav-link:hover {
+        background-color: white; }
   .main {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     height: 100vh;
@@ -159,7 +161,10 @@ footer {
     background-position-y: 30%;
     background-position-x: 3%;
     position: relative; }
-  #sobreNosotros {
-    width: 100%;
-    margin: 0;
-    padding: 0; } }
+  #services .carousel-item {
+    padding-top: 15%; }
+    #services .carousel-item img {
+      height: 40%;
+      width: 70%; }
+    #services .carousel-item em {
+      font-size: 1.2rem; } }
