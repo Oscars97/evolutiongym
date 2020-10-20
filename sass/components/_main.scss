@@ -8,7 +8,10 @@
    
     // clip-path: polygon(0 2%, 100% 0, 100% 85%, 0 90%);
     position: relative;
-
+    background-image: url(../img/logo.jpeg);
+    background-size: initial;
+    background-position: center;
+    background-position-y:-1%;
     
 }
 
@@ -26,7 +29,7 @@
     .testimonial-image{
     margin: 30px;
     width: 50%;
-    border-radius: 10%;
+    
     }
     #press{
     text-align: center;
