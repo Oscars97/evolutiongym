@@ -63,6 +63,10 @@ nav {
   #services .carousel-item {
     padding: 2% 15%; }
 
+.animate {
+  animation-name: appear;
+  animation-duration: 1s; }
+
 .mySlides {
   display: none;
   width: 90%;
@@ -97,6 +101,14 @@ nav {
     background: radial-gradient(circle, #fb5c3f 38%, #ef0031 80%);
     text-align: center;
     color: white;
+    opacity: 1; } }
+
+@keyframes appear {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
     opacity: 1; } }
 
 @media (max-width: 420px) {
