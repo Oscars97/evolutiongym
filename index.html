@@ -1,107 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--BOOTSTRAP-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-    crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/1a6c3cf02f.js" crossorigin="anonymous"></script>
-    <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
-    <!--SweetAlert-->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <!--Animate js-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-    />
-    <!--CSS-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <!--BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/1a6c3cf02f.js" crossorigin="anonymous"></script>
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
+  <!--SweetAlert-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <!--Animate js-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!--CSS-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Evolution Fit Center</title>
+  <title>Evolution Fit Center</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <!-- <a class="navbar-brand animation" href="index.html"><img id="logo" src="./img/WhatsApp Image 2020-10-03 at 2.46.03 PM.jpeg" alt=""></a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            <a id='link-services' class="nav-link" href="#services">Servicios</a>
-            <a class="nav-link" href="#location">Ubicacion</a>
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <!-- <a class="navbar-brand animation" href="index.html"><img id="logo" src="./img/WhatsApp Image 2020-10-03 at 2.46.03 PM.jpeg" alt=""></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        <a id="link-services" class="nav-link" href="#services">Servicios</a>
+        <a class="nav-link" href="#location">Ubicacion</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+  <section class="main" id="home">
+    <!-- <h1 class="title-main">EVOLUTION FIT CENTER</h1> -->
+  </section>
+  <section id="services">
+    <!-- <h1 class="title-services">Servicios</h1> -->
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Entrenamiento en sala de musculación</h2>
+          <img class="testimonial-image" src="./img/WhatsApp Image 2020-10-08 at 11.13.48 AM.jpeg" alt="dog-profile" />
+          <em>Entrenamiento con maquinas de musculacion y ejercicios
+            basicos.</em>
         </div>
-      </nav>
-      <section class="main" id="home">
-        <!-- <h1 class="title-main">EVOLUTION FIT CENTER</h1> -->
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Rutinas personalizadas</h2>
+          <img class="testimonial-image" src="./img/WhatsApp Image 2020-10-08 at 11.13.49 AM (1).jpeg"
+            alt="lady-profile" />
+          <em>Rutinas acopladas a los requerimientos y necesidades de cada
+            usuario.</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Clases funcionales</h2>
+          <img class="testimonial-image" src="./img/WhatsApp Image 2020-10-08 at 11.13.49 AM (2).jpeg"
+            alt="lady-profile" />
+          <em>Nuentras instalaciones cuentan con rutinas tanto avanzadas como
+            para personas que recien empiezan en el mundo del ejercicio.</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <section id="location" class="location">
+   <div class="container">
+    <div class="text">
+      <em>
+        <h3>ESTAMOS UBICADOS EN:
         
-      </section>
-      <section id="services">
-        <!-- <h1 class="title-services">Servicios</h1> -->
-        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <h2>Entrenamiento en sala de musculación</h2>
-                  <img class="testimonial-image" src="./img/WhatsApp Image 2020-10-08 at 11.13.48 AM.jpeg" alt="dog-profile">
-                  <em>Entrenamiento con maquinas de musculacion y ejercicios basicos.</em>
-              </div>
-              <div class="carousel-item">
-                      <h2 class="testimonial-text">Rutinas personalizadas</h2>
-                      <img class="testimonial-image" src="./img/WhatsApp Image 2020-10-08 at 11.13.49 AM (1).jpeg" alt="lady-profile">
-                      <em>Rutinas acopladas a los requerimientos y necesidades de cada usuario.</em>
-              </div>
-              <div class="carousel-item">
-                  <h2 class="testimonial-text">Clases funcionales</h2>
-                  <img class="testimonial-image" src="./img/WhatsApp Image 2020-10-08 at 11.13.49 AM (2).jpeg" alt="lady-profile">
-                  <em>Nuentras instalaciones cuentan con rutinas tanto avanzadas como para personas que recien empiezan en el mundo del ejercicio.</em>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-    </section>
+          Sobre carretera Interamericana, entrada a la finca municipal, Pérez
+          Zeledón.
+        </h3>
+      </em>
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.679106492665!2d-83.69201688585404!3d9.361637793290603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa14f004b58b31b%3A0x3a6d77c494b59b34!2sEvolution%20Fit%20Center!5e0!3m2!1ses!2scr!4v1603210904045!5m2!1ses!2scr"
+        frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+   </div>
+  </section>
 
-    
-     <section id="location" class="location">
-        <div class="text">
-          <em><h1>ESTAMOS UBICADOS EN:</h1>
-            <h2>Sobre carretera Interamericana, entrada a la finca municipal, Pérez Zeledón.</h2></em>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.679106492665!2d-83.69201688585404!3d9.361637793290603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa14f004b58b31b%3A0x3a6d77c494b59b34!2sEvolution%20Fit%20Center!5e0!3m2!1ses!2scr!4v1603210904045!5m2!1ses!2scr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-      </section>
-
-    <footer id="contacto">
+  <footer id="contacto">
+    <h1>Puedes encontrarnos en: </h1>
       <div class="social-media">
-          <ul>
-            <li><a class='link-social' href="https://www.instagram.com/evolutionfc_pz/">Seguinos en Instagram     <i class="fab fa-instagram icon-social"></i></a></li>
-            <li><a class='link-social' href="https://www.facebook.com/Evolution-Fit-Center-103417434694377">Encontranos en Facebook     <i class="fab fa-facebook icon-social"></i></a></li>
-            <li><a class='link-social' href="https://api.whatsapp.com/send?phone=50663711932&text=Quiero%20empezar%20una%20vida%20sana!">Escribinos por WhatsApp     <i class="fab fa-whatsapp icon-social"></i></a></li>
-            <li><a class='link-social' href="mailto:tropicalgym1123@hotmail.com">Contactanos via Email     <i class="fas fa-envelope-open-text icon-social"></i></a></li>
-          </ul>
-        </div>
-    </footer>
+        <ul>
+          <li>
+            <a class="link-social" href="https://www.instagram.com/evolutionfc_pz/">Seguinos en Instagram <i
+                class="fab fa-instagram icon-social"></i></a>
+          </li>
+          <li>
+            <a class="link-social" href="https://www.facebook.com/Evolution-Fit-Center-103417434694377">Encontranos en
+              Facebook
+              <i class="fab fa-facebook icon-social"></i></a>
+          </li>
+          <li>
+            <a class="link-social"
+              href="https://api.whatsapp.com/send?phone=50663711932&text=Quiero%20empezar%20una%20vida%20sana!">Escribinos
+              por WhatsApp
+              <i class="fab fa-whatsapp icon-social"></i></a>
+          </li>
+          <li>
+            <a class="link-social" href="mailto:tropicalgym1123@hotmail.com">Contactanos via Email
+              <i class="fas fa-envelope-open-text icon-social"></i></a>
+          </li>
+        </ul>
+    </div>
+  </footer>
 
-
-      <script src="js/index.js" type="text/javascript"></script>
-      <script src="js/slideshow.js" type="text/javascript"></script>
+  <script src="js/index.js" type="text/javascript"></script>
+  <script src="js/slideshow.js" type="text/javascript"></script>
 </body>
+
 </html>

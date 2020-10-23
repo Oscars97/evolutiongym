@@ -139,16 +139,40 @@ nav {
     background-position-y: 30%;
     background-position-x: 3%;
     position: relative; }
-  #services .carousel-item {
-    padding-top: 15%; }
-    #services .carousel-item img {
-      height: 40%;
-      width: 70%; }
-    #services .carousel-item em {
-      font-size: 1.2rem; }
-  .location .map {
-    width: 50%;
-    height: 50%; } }
+  #services {
+    height: 100vh; }
+    #services .carousel-item {
+      padding-top: 15%;
+      margin-top: 0;
+      padding: 0; }
+      #services .carousel-item img {
+        height: 40%;
+        width: 70%; }
+      #services .carousel-item em {
+        font-size: 1.2rem; }
+  .location {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative; }
+    .location h3 {
+      position: relative;
+      left: 15%;
+      width: 85%;
+      margin-top: 3%;
+      text-align: right; }
+    .location .map {
+      position: relative;
+      left: 7%;
+      margin: 0 auto;
+      width: 90%;
+      height: 270px; }
+  footer {
+    height: 100vh !important; }
+    footer .social-media {
+      margin: 0 auto;
+      color: white;
+      padding-top: 10%; } }
 
 footer {
   color: #130202;

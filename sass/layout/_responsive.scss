@@ -25,20 +25,21 @@
             right to the bottom with opacity and uses the following color -->  */
     /* And then we call se url function to set the
             background image */
-    background-image: url(../img/logo.jpeg);
-    background-size: auto;
-    background-position-y: 30%;
-    background-position-x: 3%;
-    position: relative;
+        background-image: url(../img/logo.jpeg);
+        background-size: auto;
+        background-position-y: 30%;
+        background-position-x: 3%;
+        position: relative;
     }
 
     
     #services{
-        
+        height: 100vh;
 
         .carousel-item{
             padding-top: 15%;
-            
+            margin-top: 0;
+            padding: 0;
             img{
                 height: 40%;
                 width: 70%;
@@ -52,13 +53,35 @@
     }
 
     .location{
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        
+        h3{
+            position: relative;
+            left: 15%;
+            width: 85%;
+            margin-top: 3%;
+            text-align: right;
+        }
+
         .map{
-            width: 50%;
-            height: 50%;
+            position: relative;
+            left: 7%;
+            margin: 0 auto;
+            width: 90%;
+            height: 270px;
         }
     }
     footer{
+        height: 100vh !important;
 
+        .social-media{
+            margin: 0 auto;
+            color: white;
+            padding-top: 10%;
+        }
     }
 
 }
