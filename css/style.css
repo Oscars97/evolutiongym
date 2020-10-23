@@ -168,11 +168,28 @@ nav {
       width: 90%;
       height: 270px; }
   footer {
-    height: 100vh !important; }
+    height: 100vh !important;
+    padding-top: 12%; }
     footer .social-media {
-      margin: 0 auto;
-      color: white;
-      padding-top: 10%; } }
+      position: relative;
+      color: white; }
+      footer .social-media li {
+        list-style: none;
+        position: relative;
+        top: 50%;
+        right: -10%;
+        width: 100%;
+        padding-top: 4%; }
+      footer .social-media h1 {
+        text-align: right; }
+      footer .social-media .copyright {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 160%;
+        text-align: center;
+        background-color: white;
+        color: black; } }
 
 footer {
   color: #130202;
