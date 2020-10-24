@@ -1,4 +1,4 @@
-.main{  animation: mainTransition 2s;
+.main{  //animation: mainTransition 2s;
     height: 100vh;
     // background-image: linear-gradient(to right bottom, rgba(254, 254, 254, 0.455), rgba(254, 254, 254, 0.455)), url(../img/logo.jpeg);
     /*This makes a gradient effect and comes from the
@@ -15,7 +15,10 @@
     
     
 }
-
+.rotate-scale-down-diag-1 {
+	-webkit-animation: rotate-scale-down-diag-1 2s ease-in-out infinite reverse both;
+	        animation: rotate-scale-down-diag-1 2s ease-in-out infinite reverse both;
+}
 #services{
     color: #fff;
     background: rgb(180,58,93);
