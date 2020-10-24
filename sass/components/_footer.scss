@@ -31,5 +31,22 @@ footer{
             .icon-social{
                 font-size: 2rem;
             }
+            .copyright{
+                width: 100%;
+                position: relative;
+                right: 0;
+                top: 160%;
+                text-align: center;
+                color: black;
+
+                .developer{
+                    color: white;
+
+                    &:hover{
+                        text-decoration: none;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
         }
 }

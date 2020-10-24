@@ -15,9 +15,9 @@
     
     
 }
-.roll-in-blurred-top {
-	-webkit-animation: roll-in-blurred-top 3s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite both;
-	        animation: roll-in-blurred-top 3s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite both;
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 3s infinite both;
+	        animation: jello-horizontal 3s infinite both;
 }
 #services{
     color: #fff;
@@ -47,7 +47,4 @@
     padding: 2% 15%;
     }
 }
-.animate{
-    animation-name: appear;
-    animation-duration: 1s;
-}
+
