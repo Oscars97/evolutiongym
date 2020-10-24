@@ -15,9 +15,9 @@
     
     
 }
-.rotate-scale-down-diag-1 {
-	-webkit-animation: rotate-scale-down-diag-1 2s ease-in-out infinite reverse both;
-	        animation: rotate-scale-down-diag-1 2s ease-in-out infinite reverse both;
+.roll-in-blurred-top {
+	-webkit-animation: roll-in-blurred-top 3s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite both;
+	        animation: roll-in-blurred-top 3s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite both;
 }
 #services{
     color: #fff;
