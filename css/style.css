@@ -185,11 +185,11 @@ nav {
     background-image: url(../img/logo.jpeg);
     background-size: auto;
     background-position-y: 30%;
-    background-position-x: 3%;
+    background-position-x: 45%;
     position: relative; }
   #services {
     height: 100vh;
-    padding-top: 15%; }
+    padding-top: 20%; }
     #services .carousel-item {
       padding-top: 15%;
       margin-top: 0;
@@ -202,7 +202,7 @@ nav {
   .location {
     height: 100vh;
     padding: 0;
-    padding-top: 13%;
+    padding-top: 20%;
     margin: 0;
     position: relative; }
     .location h3 {
@@ -219,7 +219,8 @@ nav {
       height: 270px; }
   footer {
     height: 100vh !important;
-    padding-top: 15%; }
+    padding-top: 15%;
+    position: relative; }
     footer .social-media {
       position: relative;
       color: white; }
@@ -233,12 +234,9 @@ nav {
       footer .social-media h1 {
         text-align: right; }
       footer .social-media .copyright {
+        margin-top: 30%;
         width: 100%;
-        position: absolute;
-        right: 0;
-        top: 160%;
         text-align: center;
-        background-color: white;
         color: black; } }
 
 footer {
