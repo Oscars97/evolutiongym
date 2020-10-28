@@ -12,39 +12,10 @@
     background-size: initial;
     background-position: center;
     background-position-y:-1%;
-    
-    
 }
 .jello-horizontal {
 	-webkit-animation: jello-horizontal 3s infinite both;
 	        animation: jello-horizontal 3s infinite both;
 }
-#services{
-    color: #fff;
-    background: rgb(180,58,93);
-    background: linear-gradient(90deg, rgba(180,58,93,1) 9%, rgba(253,29,29,1) 66%, rgba(252,176,69,1) 100%); 
-    text-align: center;
-    height: 100vh;
-    
-    .title-services{
-        font-family: 'Frank Ruhl Libre', serif;
-        text-align: center;
-    }
-    .testimonial-image{
-    margin: 30px;
-    width: 50%;
-    
-    }
-    #press{
-    text-align: center;
-    background-color: #ef8172;
-    }
-    .press-logo{
-    margin: 20px 20px 50px;
-    width: 15%;
-    }
-    .carousel-item{
-    padding: 2% 15%;
-    }
-}
+
 

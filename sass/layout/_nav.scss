@@ -1,5 +1,5 @@
 nav{
-    background-color: rgba(0, 0, 0, 0.078);
+    background-color: rgba(232, 6, 6, 0.229);
     height: 13% !important;
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -8,17 +8,18 @@ nav{
     letter-spacing: 8px;
 
     .nav-link{
-    margin-right: 25px;
+    
+    margin-right: 220px;
     position: relative;
-
+    
     &:hover{
         animation: centeredPosition 2s;
         color: $light-color;
     }
         &:last-child{
-        position: absolute;
-        right: 0.1%;
-        margin-right: 0;
+        position: relative;
+        display: inline;
+        float: right;
         }
  
         
