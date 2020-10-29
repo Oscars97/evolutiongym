@@ -10,7 +10,9 @@
             width: 50%;
             display: flex;
             float: right;
-            
+            // background-color: rgba(232, 6, 6, 0.229);
+            background-color: rgba(255, 255, 255, 0.633);
+            color: white;
             }
     }
     .main{
@@ -19,11 +21,22 @@
         background-image: url(../img/logo.jpeg);
         background-size: auto;
         background-position-y: 30%;
-        background-position-x: 45%;
+        background-position-x: 48%;
         position: relative;
     }
     
-    
+    .services-carousel{
+        padding-top: 24%;
+        height: 80vh;
+        position: relative;
+        .carousel-img{
+            height: 70vh;
+        }
+        .carousel-caption{
+            position: absolute;
+            z-index: 10;
+        }
+    }
 
     .location{
         height: 100vh;
